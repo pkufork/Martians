@@ -3,7 +3,7 @@ package com.pkufork.martians.leetcode;
 /**
  * Created by pkufork on 16/8/9.
  */
-public class MedianofTwoSortedArrays4 {
+public class L4_MedianofTwoSortedArrays {
     private int findNthSortedArrays(int A[], int as, int B[], int bs, int n){
         while(n>1 && as < A.length && bs < B.length){
             int half = n/2;
@@ -43,6 +43,6 @@ public class MedianofTwoSortedArrays4 {
     public static void main(String[] args){
         int[] A = {1,2,3};
         int[] B = {1};
-        System.out.println(new MedianofTwoSortedArrays4().findMedianSortedArrays(A, B));
+        System.out.println(new L4_MedianofTwoSortedArrays().findMedianSortedArrays(A, B));
     }
 }

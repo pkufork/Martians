@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by pkufork on 16/6/25.
  */
-public class TwoSum1 {
+public class L1_TwoSum {
     public int[] twoSum1(final int[] numbers, int target) {
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i+1; j < numbers.length; j++) {
@@ -49,6 +49,6 @@ public class TwoSum1 {
     }
 
     public static void main(String[] args){
-        System.out.println(Arrays.toString(new TwoSum1().twoSum1(new int[]{2,7,11,15}, 9)));
+        System.out.println(Arrays.toString(new L1_TwoSum().twoSum1(new int[]{2,7,11,15}, 9)));
     }
 }

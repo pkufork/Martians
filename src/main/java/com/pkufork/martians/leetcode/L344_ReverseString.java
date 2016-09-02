@@ -3,7 +3,7 @@ package com.pkufork.martians.leetcode;
 /**
  * Created by pkufork on 16/6/18.
  */
-public class ReverseString344 {
+public class L344_ReverseString {
     public String reverseString(String s) {
         StringBuilder sb = new StringBuilder();
         for (int i = s.length() - 1; i >= 0; i--) {
@@ -45,9 +45,9 @@ public class ReverseString344 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new ReverseString344().reverseString(""));
+        System.out.println(new L344_ReverseString().reverseString(""));
         StringBuilder sb = new StringBuilder("hello, , world!");
-        new ReverseString344().reverseSentenceInPlace(sb);
+        new L344_ReverseString().reverseSentenceInPlace(sb);
         System.out.println(sb);
     }
 }

@@ -14,7 +14,7 @@ class ListNode {
     }
 }
 
-public class AddTwoNumbers2 {
+public class L2_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = null;
         ListNode ll1 = l1;

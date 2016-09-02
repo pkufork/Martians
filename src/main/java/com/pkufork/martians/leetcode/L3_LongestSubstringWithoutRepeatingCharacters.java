@@ -3,7 +3,7 @@ package com.pkufork.martians.leetcode;
 /**
  * Created by pkufork on 16/8/1.
  */
-public class LongestSubstringWithoutRepeatingCharacters3 {
+public class L3_LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         if(s.length() == 0){
             return 0;
@@ -31,6 +31,6 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
     }
 
     public static void main(String[] args){
-        System.out.println(new LongestSubstringWithoutRepeatingCharacters3().lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(new L3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("abcabcbb"));
     }
 }

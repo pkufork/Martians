@@ -3,7 +3,7 @@ package com.pkufork.martians.leetcode;
 /**
  * Created by pkufork on 16/8/15.
  */
-public class LongestPalindromicSubstring5 {
+public class L5_LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         if (s.length() < 2) {
             return s;
@@ -48,6 +48,6 @@ public class LongestPalindromicSubstring5 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new LongestPalindromicSubstring5().longestPalindrome("abbccaaccbb"));
+        System.out.println(new L5_LongestPalindromicSubstring().longestPalindrome("abbccaaccbb"));
     }
 }
